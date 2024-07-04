@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Cookie';
+    src: url("../Fonts/CookieRun-Regular.woff") format('woff');
+font-weight: normal;
+font-style: normal;
+font-display: swap;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body{
+    font-size: 14px;
+    font-family: 'Cookie', sans-serif;
+}
+
+.loginPage{
+    margin:auto;
+    width: 480px;
+    height: 350px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.loginPage>h2{
+    text-align: center;
+    font-size: 30px;
+    color: #6a24fe;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+#loginForm > input{
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #f8f8f8;
+    font-family: 'Cookie', sans-serif;
+}
+
+#loginForm > input::placeholder{
+    color: #997b7b;
+    font-family: 'Cookie', sans-serif;
+}
+
+#loginForm > input[type="button"]{
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+    background-color:#6a24fe ;
+    margin-top: 16px;
+    display: inline-block;
+    width:49%
+}
+
+.button{
+    height: 26px;
+    border-radius: 6px;
+    text-align: center;
+    padding-top:  3px;
+    padding-bottom: 1px;
+    color: #fff;
+    font-size: 16px;
+    background-color:#6a24fe ;
+    display: inline-block;
+    width:49%
+}
+
+#loginButton{
+	margin-top: 16px;
+	 height: 35px;
+    border-radius: 6px;
+    text-align: center;
+    padding-top:  3px;
+    padding-bottom: 1px;
+    color: #fff;
+    font-size: 20px;
+    background-color:#6a24fe ;
+    display: inline-block;
+    width:60%
+}
