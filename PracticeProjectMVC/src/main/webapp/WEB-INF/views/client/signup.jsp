@@ -13,7 +13,7 @@
 	<div class="signUpPage">
     <h2>회원가입</h2>
     
-	<form name="registerForm" action="Clinet.js">
+	<form name="registerForm" action="Client.js">
 	
 			<div id="signUpForm">
 			<h3>아이디</h3> <input type ="search" name ="id" placeholder="영문,특수문자조합 8자 이상">
