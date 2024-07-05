@@ -34,8 +34,8 @@
 			</div>
 			
 			
-			<input type="button" value="회원가입" onclick="signUp()" id="signUp">
-			<input type="reset" value="다시 쓰기" id="signUp">
+			<input type="button" value="회원가입" onclick="signUp()" id="signUp1">
+			<input type="reset" value="다시 쓰기" id="signUp1">
 			<a href="<c:url value='/client/login'/>" class="button">로그인화면</a>
 	</form>
 	</div>
