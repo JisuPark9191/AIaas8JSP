@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Cookie';
+    src: url("../Fonts/CookieRun-Regular.woff") format('woff');
+font-weight: normal;
+font-style: normal;
+font-display: swap;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body{
+    font-size: 14pt;
+    font-family: 'Cookie';
+}
+
+.modifyUser-page{
+    width: 500px;
+    height: 400px;
+    box-sizing: border-box;
+    padding: 40px;
+    margin: auto;
+    font-family: 'Cookie';
+}
+
+#head{
+    display: inline;
+}
+
+#head>h1{
+    text-align: left;
+    font-size: 20pt;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    float: left;
+}
+
+#head>h2{
+    text-align: left;
+    font-size: 20pt;
+    color: #6a24fe;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    float: left;
+    inline-size: 40%;
+}
+
+#modifyUserForm>input{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #f8f8f8;
+    font-family: 'Cookie';
+}
+
+#modifyUserForm>input[type="button"]{
+    height: 34px;
+    padding-top: 5px;
+    color: #fff;
+    font-size: 16px;
+    background-color:#6a24fe ;
+    margin-top: 5px;
+    border-radius: 7pt;
+    width:24%
+}
+
+.button{
+    text-align: center;
+    height: 28px;
+    padding-top: 7px;
+    color: #fff;
+    font-size: 15px;
+    background-color: #6a24fe;
+    display: inline-block;
+    width: 24%;
+    font-family: 'Cookie';
+    border-radius: 7pt;
+}
