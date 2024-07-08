@@ -53,7 +53,9 @@ public class ClientConroller {
 	}
 	
 	@GetMapping("/list")
-	public String getAllClient(Model model) {
+	public String getAllClient(
+		@RequestParam(value="searchFail", defaultValue="1") int fail,
+		Model model) {
 		List<ClientVO> clntList= clientService.getClientList("date","ascend");
 		model.addAttribute("list",clntList);
 		return "client/list";
