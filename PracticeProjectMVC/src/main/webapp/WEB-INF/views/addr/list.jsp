@@ -59,6 +59,7 @@
 			<div id="bottomLeft-menu">
 			<input type="search" name="name">
 			<input type="button" value ="이름검색" onclick="searchBlankAddr()">
+			<h4>${searchFail==0?"검색한 이름을 찾지 못 했습니다.":""}</h4>
 			</div>
 		<input type="hidden" name="id" value="${id}">
 	</div>
