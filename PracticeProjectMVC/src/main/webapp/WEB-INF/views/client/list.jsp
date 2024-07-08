@@ -46,6 +46,7 @@
 		<div id="bottom-menu">
 		<input type="search" name="name">
 		<input type="button" value ="이름검색" onclick="searchBlankClient()">
+		<h4>${searchFail==0?"검색한 이름을 찾지 못 했습니다.":""}</h4>
 		</div>
 	</form>
 </div>
