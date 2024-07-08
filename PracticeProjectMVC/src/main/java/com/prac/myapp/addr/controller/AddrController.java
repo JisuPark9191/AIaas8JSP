@@ -55,6 +55,7 @@ public class AddrController {
 			Model model){
 		List<AddrVO> addrList = addrService.getAddrNameList(id,name);
 		if(addrList.size()==0) {
+			model.addAttribute("searchFail",0);
 			model.addAttribute("id",id);
 			model.addAttribute("list",addrService.getAddrList(id,"date","ascend"));
 			return "addr/list";
