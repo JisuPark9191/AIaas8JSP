@@ -24,6 +24,7 @@ public class AddrController {
 	
 	@GetMapping("/list")
 	public String getAllAddr(
+			@RequestParam(value="searchFail", defaultValue="1") int fail,
 			@RequestParam(value="id")String id,
 			@RequestParam(value="value", defaultValue="date")String value,
 			@RequestParam(value="orderby", defaultValue="ascend")String orderby,
