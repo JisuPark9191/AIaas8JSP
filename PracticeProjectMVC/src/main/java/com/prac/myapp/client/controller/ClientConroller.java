@@ -77,6 +77,7 @@ public class ClientConroller {
 			Model model){
 		List<ClientVO> clntList = clientService.getClientNameList(name);
 		if(clntList.size()==0) {
+			model.addAttribute("searchFail",0);
 			model.addAttribute("list",clientService.getClientList("date","ascend"));
 			return "client/list";
 		}
