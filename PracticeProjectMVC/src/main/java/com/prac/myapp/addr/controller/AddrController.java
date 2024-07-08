@@ -22,17 +22,6 @@ public class AddrController {
 	@Autowired
 	IAddrService addrService;
 	
-	@GetMapping("/count")
-	public String addrCount(
-			@RequestParam(value="id",required=true,defaultValue="error")String id,Model model) {
-		if(id.equals("error")) {
-			return "addr/error";
-		} else {
-			model.addAttribute("count",addrService.getAddrCount(id));
-		}
-		return "addr/count";
-	}
-	
 	@GetMapping("/list")
 	public String getAllAddr(
 			@RequestParam(value="id")String id,
