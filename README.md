@@ -1,6 +1,6 @@
 # 개요 
 
-01. MiniProject
+###01. MiniProject
   
   1, SpringMVC
 
